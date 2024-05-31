@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <h1>We would like to tell you a joke </h1>
+  <form action="/form" id="form" class="form" method="POST">
+    <select name="category" class="form-select">
+      <option value="Any">Any Category</option>
+      <option value="Proggraming">Proggraming</option>
+      <option value="Misc">Misc</option>
+      <option value="Dark">Dark</option>
+      <option value="Pun">Pun</option>
+      <option value="Spooky">Spooky</option>
+      <option value="Christmas">Christmas</option>
+    </select>
+    <select name="language" class="form-select">
+      <option value="english">English</option>
+      <option value="czech">Czech</option>
+      <option value="german">German</option>
+      <option value="spanish">Spanish</option>
+      <option value="french">French</option>
+      <option value="portuguase">Portuguase</option>
+    </select>
+    <select name="flags" class="form-select">
+      <option value="">Optional (blacklist)</option>
+      <option value="nsfw">nsfw</option>
+      <option value="religious">religious</option>
+      <option value="political">political</option>
+      <option value="racist">racist</option>
+      <option value="sexist">sexist</option>
+      <option value="explicit">explicit</option>
+    </select>
+    <input type="checkbox" value="single" id="single" name="single" checked> single <br>
+    <input type="checkbox" value="twopart" id="twopart" name="twopart" checked> twopart<br>
+    <button type="submit" class="fomr-submit">Find</button>
+  <form>
+    
+</body>
+</html>
